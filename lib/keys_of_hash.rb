@@ -1,7 +1,7 @@
 class Hash
-  def keys_of(*arguments)
+  def keys_of(arguments)
     # code goes here
-+    result = []
+  result = []
     self.each do |key, value|
       arguments.each do |a|
         if a == value
@@ -11,5 +11,5 @@ class Hash
 
     end
     result
-     end	  
+     end
 end
